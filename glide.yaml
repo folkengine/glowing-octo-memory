@@ -1,0 +1,9 @@
+package: github.com/folkengine/glowing-octo-memory
+license: GPL3
+owners:
+- name: Chris Baker
+  email: ignatz@gmail.com
+  homepage: http://github.com/folkengine
+import:
+- package: github.com/lionelbarrow/braintree-go
+  version: ^0.12.0

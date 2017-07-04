@@ -1,0 +1,6 @@
+hash: f538be2355e3787c1daf849d4b296589022d08d68779d518b372c3aca9579a3d
+updated: 2017-07-04T18:32:14.246749083-04:00
+imports:
+- name: github.com/lionelbarrow/braintree-go
+  version: 5b8ec4387e42df5c09f40da9436dc29a69047f51
+testImports: []
