@@ -4,7 +4,6 @@ import (
 	"testing"
 )
 
-
 func TestBadCards(t *testing.T) {
 	expecting := "4000111111111115"
 	badcards := BadCards()
@@ -23,3 +22,25 @@ func TestGoodCards(t *testing.T) {
 	}
 }
 
+func TestSampleGoodCards(t *testing.T) {
+	card := SampleGoodCards()
+	if !contains(card, GoodCards()) {
+		t.Errorf("Unable to find %v", card)
+	}
+}
+
+func TestSampleBadCards(t *testing.T) {
+	card := SampleBadCards()
+	if !contains(card, BadCards()) {
+		t.Errorf("Unable to find %v", card)
+	}
+}
+
+func contains(card Card, cards []Card) bool {
+	for _, s := range cards {
+		if s == card {
+			return true
+		}
+	}
+	return false
+}

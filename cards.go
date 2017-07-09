@@ -18,10 +18,6 @@ type Card struct {
 	Response 	string
 }
 
-type Cards struct {
-	Collection []Card
-}
-
 func GoodCards() []Card {
 	return openCards("cardsgood.json")
 }
@@ -42,4 +38,16 @@ func openCards(filename string) []Card {
 		log.Fatal(err)
 	}
 	return cards
+}
+
+func SampleGoodCards() Card {
+	return sampleCards(GoodCards())
+}
+
+func SampleBadCards() Card {
+	return sampleCards(BadCards())
+}
+
+func sampleCards(cards []Card) Card {
+	return cards[rand.Intn(len(cards))]
 }
