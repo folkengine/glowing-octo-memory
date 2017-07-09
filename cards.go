@@ -51,3 +51,12 @@ func SampleBadCards() Card {
 func sampleCards(cards []Card) Card {
 	return cards[rand.Intn(len(cards))]
 }
+
+func CardsContain(card Card, cards []Card) bool {
+	for _, s := range cards {
+		if s == card {
+			return true
+		}
+	}
+	return false
+}

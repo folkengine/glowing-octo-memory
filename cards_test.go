@@ -24,23 +24,14 @@ func TestGoodCards(t *testing.T) {
 
 func TestSampleGoodCards(t *testing.T) {
 	card := SampleGoodCards()
-	if !contains(card, GoodCards()) {
+	if !CardsContain(card, GoodCards()) {
 		t.Errorf("Unable to find %v", card)
 	}
 }
 
 func TestSampleBadCards(t *testing.T) {
 	card := SampleBadCards()
-	if !contains(card, BadCards()) {
+	if !CardsContain(card, BadCards()) {
 		t.Errorf("Unable to find %v", card)
 	}
-}
-
-func contains(card Card, cards []Card) bool {
-	for _, s := range cards {
-		if s == card {
-			return true
-		}
-	}
-	return false
 }
