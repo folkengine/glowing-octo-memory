@@ -1,0 +1,66 @@
+[
+  {
+    "number": "378282246310005",
+    "cardtype": "American Express"
+  },
+  {
+    "number": "371449635398431",
+    "cardtype": "American Express"
+  },
+  {
+    "number": "36259600000004",
+    "cardtype": "Diners Club"
+  },
+  {
+    "number": "6011111111111117",
+    "cardtype": "Discover"
+  },
+  {
+    "number": "3530111333300000",
+    "cardtype": "JCB"
+  },
+  {
+    "number": "6304000000000000",
+    "cardtype": "Maestro"
+  },
+  {
+    "number": "5555555555554444",
+    "cardtype": "Mastercard"
+  },
+  {
+    "number": "2223000048400011",
+    "cardtype": "Mastercard"
+  },
+  {
+    "number": "4111111111111111",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4005519200000004",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4009348888881881",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4012000033330026",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4012000077777777",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4012888888881881",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4217651111111119",
+    "cardtype": "Visa"
+  },
+  {
+    "number": "4500600000000061",
+    "cardtype": "Visa"
+  }
+]
